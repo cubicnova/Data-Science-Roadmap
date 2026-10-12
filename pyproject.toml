@@ -1,0 +1,8 @@
+[project]
+name = "data-science-roadmap"
+version = "0.1.0"
+description = "A structured, open-source roadmap to learn Data Science"
+requires-python = ">=3.9"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

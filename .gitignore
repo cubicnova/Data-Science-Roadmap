@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.DS_Store
+.idea/
+.vscode/
+*.egg-info/
+dist/
+build/
+datasets/*
+!datasets/README.md
+!datasets/sample/
+!datasets/.gitkeep
