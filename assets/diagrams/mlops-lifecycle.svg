@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">MLOps Lifecycle</title>
+  <desc id="desc">A model lifecycle covering data, training, evaluation, registration, deployment, monitoring, and improvement.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fbff"/>
+      <stop offset="100%" stop-color="#edf4fb"/>
+    </linearGradient>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#17324d" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#56718c"/>
+    </marker>
+    <style>
+      .title { font: 700 30px Arial, Helvetica, sans-serif; fill: #142c43; }
+      .subtitle { font: 400 15px Arial, Helvetica, sans-serif; fill: #52677b; }
+      .node-title { font: 700 17px Arial, Helvetica, sans-serif; fill: #18334b; }
+      .node-text { font: 400 13px Arial, Helvetica, sans-serif; fill: #40576b; }
+      .small { font: 400 12px Arial, Helvetica, sans-serif; fill: #52677b; }
+      .edge { fill: none; stroke: #56718c; stroke-width: 2.5; marker-end: url(#arrow); }
+      .edge-dashed { fill: none; stroke: #56718c; stroke-width: 2.2; stroke-dasharray: 7 6; marker-end: url(#arrow); }
+      .card { fill: #ffffff; stroke: #cbd9e6; stroke-width: 1.4; rx: 15; filter: url(#shadow); }
+      .blue { fill: #dceeff; stroke: #78a9d8; stroke-width: 1.4; rx: 14; }
+      .teal { fill: #d9f4ed; stroke: #71b8a8; stroke-width: 1.4; rx: 14; }
+      .gold { fill: #fff0cf; stroke: #d9b35c; stroke-width: 1.4; rx: 14; }
+      .purple { fill: #ece4ff; stroke: #a594dc; stroke-width: 1.4; rx: 14; }
+      .rose { fill: #ffe3e6; stroke: #d998a1; stroke-width: 1.4; rx: 14; }
+      .dark { fill: #193a55; stroke: #193a55; stroke-width: 1.4; rx: 14; }
+      .white-title { font: 700 16px Arial, Helvetica, sans-serif; fill: #ffffff; }
+      .white-text { font: 400 12px Arial, Helvetica, sans-serif; fill: #e8f1f8; }
+    </style>
+  </defs>
+  <rect width="1200" height="680" rx="22" fill="url(#bg)"/>
+  <text x="48" y="54" class="title">MLOps Lifecycle</text>
+  <text x="48" y="82" class="subtitle">A model lifecycle covering data, training, evaluation, registration, deployment, monitoring, and improvement.</text>
+  <rect x="70" y="170" width="220" height="105" class="blue"/>
+<text x="180.0" y="201" text-anchor="middle" class="node-title">1. Data</text>
+<text x="180.0" y="225" text-anchor="middle" class="node-text">Collect, validate,</text>
+<text x="180.0" y="243" text-anchor="middle" class="node-text">version datasets</text>
+<rect x="350" y="170" width="220" height="105" class="teal"/>
+<text x="460.0" y="201" text-anchor="middle" class="node-title">2. Train</text>
+<text x="460.0" y="225" text-anchor="middle" class="node-text">Reproducible runs,</text>
+<text x="460.0" y="243" text-anchor="middle" class="node-text">track parameters</text>
+<rect x="630" y="170" width="220" height="105" class="gold"/>
+<text x="740.0" y="201" text-anchor="middle" class="node-title">3. Evaluate</text>
+<text x="740.0" y="225" text-anchor="middle" class="node-text">Quality, safety,</text>
+<text x="740.0" y="243" text-anchor="middle" class="node-text">acceptance criteria</text>
+<rect x="910" y="170" width="220" height="105" class="purple"/>
+<text x="1020.0" y="201" text-anchor="middle" class="node-title">4. Register</text>
+<text x="1020.0" y="225" text-anchor="middle" class="node-text">Version model,</text>
+<text x="1020.0" y="243" text-anchor="middle" class="node-text">store artifacts</text>
+<rect x="910" y="390" width="220" height="105" class="blue"/>
+<text x="1020.0" y="421" text-anchor="middle" class="node-title">5. Deploy</text>
+<text x="1020.0" y="445" text-anchor="middle" class="node-text">API, batch, or</text>
+<text x="1020.0" y="463" text-anchor="middle" class="node-text">online service</text>
+<rect x="630" y="390" width="220" height="105" class="teal"/>
+<text x="740.0" y="421" text-anchor="middle" class="node-title">6. Monitor</text>
+<text x="740.0" y="445" text-anchor="middle" class="node-text">Latency, errors,</text>
+<text x="740.0" y="463" text-anchor="middle" class="node-text">quality, drift</text>
+<rect x="350" y="390" width="220" height="105" class="gold"/>
+<text x="460.0" y="421" text-anchor="middle" class="node-title">7. Improve</text>
+<text x="460.0" y="445" text-anchor="middle" class="node-text">Feedback, retrain,</text>
+<text x="460.0" y="463" text-anchor="middle" class="node-text">rollback if needed</text>
+<path d="M290,222 L350,222" class="edge"/>
+<path d="M570,222 L630,222" class="edge"/>
+<path d="M850,222 L910,222" class="edge"/>
+<path d="M1020,275 L1020,390" class="edge"/>
+<path d="M910,442 L850,442" class="edge"/>
+<path d="M630,442 L570,442" class="edge"/>
+<path d="M350,442 L260,442" class="edge"/>
+<path d="M180,390 L180,275" class="edge-dashed"/>
+<text x="470" y="530" text-anchor="middle" class="node-text">Automate repeatable checks, preserve lineage, and make deployments observable and reversible.</text>
+<text x="470" y="558" text-anchor="middle" class="small">Monitoring may trigger investigation, retraining, or rollback; retraining should be validated before release.</text>
+  <text x="48" y="656" class="small">CubicNova Data Science Roadmap • assets/diagrams</text>
+</svg>

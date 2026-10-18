@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Data Science Lifecycle</title>
+  <desc id="desc">A practical end-to-end cycle from defining a problem to monitoring a deployed solution.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fbff"/>
+      <stop offset="100%" stop-color="#edf4fb"/>
+    </linearGradient>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#17324d" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#56718c"/>
+    </marker>
+    <style>
+      .title { font: 700 30px Arial, Helvetica, sans-serif; fill: #142c43; }
+      .subtitle { font: 400 15px Arial, Helvetica, sans-serif; fill: #52677b; }
+      .node-title { font: 700 17px Arial, Helvetica, sans-serif; fill: #18334b; }
+      .node-text { font: 400 13px Arial, Helvetica, sans-serif; fill: #40576b; }
+      .small { font: 400 12px Arial, Helvetica, sans-serif; fill: #52677b; }
+      .edge { fill: none; stroke: #56718c; stroke-width: 2.5; marker-end: url(#arrow); }
+      .edge-dashed { fill: none; stroke: #56718c; stroke-width: 2.2; stroke-dasharray: 7 6; marker-end: url(#arrow); }
+      .card { fill: #ffffff; stroke: #cbd9e6; stroke-width: 1.4; rx: 15; filter: url(#shadow); }
+      .blue { fill: #dceeff; stroke: #78a9d8; stroke-width: 1.4; rx: 14; }
+      .teal { fill: #d9f4ed; stroke: #71b8a8; stroke-width: 1.4; rx: 14; }
+      .gold { fill: #fff0cf; stroke: #d9b35c; stroke-width: 1.4; rx: 14; }
+      .purple { fill: #ece4ff; stroke: #a594dc; stroke-width: 1.4; rx: 14; }
+      .rose { fill: #ffe3e6; stroke: #d998a1; stroke-width: 1.4; rx: 14; }
+      .dark { fill: #193a55; stroke: #193a55; stroke-width: 1.4; rx: 14; }
+      .white-title { font: 700 16px Arial, Helvetica, sans-serif; fill: #ffffff; }
+      .white-text { font: 400 12px Arial, Helvetica, sans-serif; fill: #e8f1f8; }
+    </style>
+  </defs>
+  <rect width="1200" height="680" rx="22" fill="url(#bg)"/>
+  <text x="48" y="54" class="title">Data Science Lifecycle</text>
+  <text x="48" y="82" class="subtitle">A practical end-to-end cycle from defining a problem to monitoring a deployed solution.</text>
+  <rect x="45" y="170" width="130" height="112" class="blue"/>
+<text x="110.0" y="201" text-anchor="middle" class="node-title">1. Define</text>
+<text x="110.0" y="225" text-anchor="middle" class="node-text">Problem, goals</text>
+<text x="110.0" y="243" text-anchor="middle" class="node-text">&amp; success metrics</text>
+<rect x="210" y="170" width="130" height="112" class="teal"/>
+<text x="275.0" y="201" text-anchor="middle" class="node-title">2. Collect</text>
+<text x="275.0" y="225" text-anchor="middle" class="node-text">Files, databases,</text>
+<text x="275.0" y="243" text-anchor="middle" class="node-text">APIs, experiments</text>
+<rect x="375" y="170" width="130" height="112" class="gold"/>
+<text x="440.0" y="201" text-anchor="middle" class="node-title">3. Prepare</text>
+<text x="440.0" y="225" text-anchor="middle" class="node-text">Clean, validate,</text>
+<text x="440.0" y="243" text-anchor="middle" class="node-text">transform data</text>
+<rect x="540" y="170" width="130" height="112" class="purple"/>
+<text x="605.0" y="201" text-anchor="middle" class="node-title">4. Explore</text>
+<text x="605.0" y="225" text-anchor="middle" class="node-text">Patterns, charts,</text>
+<text x="605.0" y="243" text-anchor="middle" class="node-text">hypotheses</text>
+<rect x="705" y="170" width="130" height="112" class="blue"/>
+<text x="770.0" y="201" text-anchor="middle" class="node-title">5. Model</text>
+<text x="770.0" y="225" text-anchor="middle" class="node-text">Features, training,</text>
+<text x="770.0" y="243" text-anchor="middle" class="node-text">baseline models</text>
+<rect x="870" y="170" width="130" height="112" class="teal"/>
+<text x="935.0" y="201" text-anchor="middle" class="node-title">6. Evaluate</text>
+<text x="935.0" y="225" text-anchor="middle" class="node-text">Metrics, error</text>
+<text x="935.0" y="243" text-anchor="middle" class="node-text">and risk analysis</text>
+<rect x="1035" y="170" width="130" height="112" class="gold"/>
+<text x="1100.0" y="201" text-anchor="middle" class="node-title">7. Deploy</text>
+<text x="1100.0" y="225" text-anchor="middle" class="node-text">Serve predictions,</text>
+<text x="1100.0" y="243" text-anchor="middle" class="node-text">document release</text>
+<path d="M175,226 L207,226" class="edge"/>
+<path d="M340,226 L372,226" class="edge"/>
+<path d="M505,226 L537,226" class="edge"/>
+<path d="M670,226 L702,226" class="edge"/>
+<path d="M835,226 L867,226" class="edge"/>
+<path d="M1000,226 L1032,226" class="edge"/>
+<rect x="430" y="390" width="340" height="95" class="dark"/>
+<text x="600.0" y="421" text-anchor="middle" class="node-title">8. Monitor &amp; Improve</text>
+<text x="600.0" y="445" text-anchor="middle" class="node-text">Drift, feedback, reliability</text>
+<path d="M1100,282 L770,430" class="edge-dashed"/>
+<path d="M430,438 L110,438" class="edge-dashed"/>
+<path d="M110,438 L110,290" class="edge-dashed"/>
+<text x="270" y="425" class="small">Feedback loop: refine data, goals, and models</text>
+<text x="48" y="560" class="node-text">Iterative process: evaluation and monitoring can send the team back to earlier stages.</text>
+  <text x="48" y="656" class="small">CubicNova Data Science Roadmap • assets/diagrams</text>
+</svg>

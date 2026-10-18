@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Types of Machine Learning</title>
+  <desc id="desc">Compare supervised and unsupervised learning, with common task types and examples.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fbff"/>
+      <stop offset="100%" stop-color="#edf4fb"/>
+    </linearGradient>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#17324d" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#56718c"/>
+    </marker>
+    <style>
+      .title { font: 700 30px Arial, Helvetica, sans-serif; fill: #142c43; }
+      .subtitle { font: 400 15px Arial, Helvetica, sans-serif; fill: #52677b; }
+      .node-title { font: 700 17px Arial, Helvetica, sans-serif; fill: #18334b; }
+      .node-text { font: 400 13px Arial, Helvetica, sans-serif; fill: #40576b; }
+      .small { font: 400 12px Arial, Helvetica, sans-serif; fill: #52677b; }
+      .edge { fill: none; stroke: #56718c; stroke-width: 2.5; marker-end: url(#arrow); }
+      .edge-dashed { fill: none; stroke: #56718c; stroke-width: 2.2; stroke-dasharray: 7 6; marker-end: url(#arrow); }
+      .card { fill: #ffffff; stroke: #cbd9e6; stroke-width: 1.4; rx: 15; filter: url(#shadow); }
+      .blue { fill: #dceeff; stroke: #78a9d8; stroke-width: 1.4; rx: 14; }
+      .teal { fill: #d9f4ed; stroke: #71b8a8; stroke-width: 1.4; rx: 14; }
+      .gold { fill: #fff0cf; stroke: #d9b35c; stroke-width: 1.4; rx: 14; }
+      .purple { fill: #ece4ff; stroke: #a594dc; stroke-width: 1.4; rx: 14; }
+      .rose { fill: #ffe3e6; stroke: #d998a1; stroke-width: 1.4; rx: 14; }
+      .dark { fill: #193a55; stroke: #193a55; stroke-width: 1.4; rx: 14; }
+      .white-title { font: 700 16px Arial, Helvetica, sans-serif; fill: #ffffff; }
+      .white-text { font: 400 12px Arial, Helvetica, sans-serif; fill: #e8f1f8; }
+    </style>
+  </defs>
+  <rect width="1200" height="680" rx="22" fill="url(#bg)"/>
+  <text x="48" y="54" class="title">Types of Machine Learning</text>
+  <text x="48" y="82" class="subtitle">Compare supervised and unsupervised learning, with common task types and examples.</text>
+  <rect x="420" y="130" width="360" height="78" class="dark"/>
+<text x="600.0" y="161" text-anchor="middle" class="node-title">Machine Learning</text>
+<text x="600.0" y="185" text-anchor="middle" class="node-text">Learn patterns from data</text>
+<path d="M600,208 L310,275" class="edge"/>
+<path d="M600,208 L890,275" class="edge"/>
+<rect x="85" y="275" width="450" height="90" class="blue"/>
+<text x="310.0" y="306" text-anchor="middle" class="node-title">Supervised Learning</text>
+<text x="310.0" y="330" text-anchor="middle" class="node-text">Training data includes target labels</text>
+<text x="310.0" y="348" text-anchor="middle" class="node-text">Goal: predict known outcomes</text>
+<rect x="665" y="275" width="450" height="90" class="teal"/>
+<text x="890.0" y="306" text-anchor="middle" class="node-title">Unsupervised Learning</text>
+<text x="890.0" y="330" text-anchor="middle" class="node-text">No target labels supplied</text>
+<text x="890.0" y="348" text-anchor="middle" class="node-text">Goal: discover structure or patterns</text>
+<path d="M310,365 L190,430" class="edge"/>
+<path d="M310,365 L410,430" class="edge"/>
+<path d="M890,365 L770,430" class="edge"/>
+<path d="M890,365 L990,430" class="edge"/>
+<rect x="70" y="430" width="240" height="100" class="gold"/>
+<text x="190.0" y="461" text-anchor="middle" class="node-title">Regression</text>
+<text x="190.0" y="485" text-anchor="middle" class="node-text">Predict a number</text>
+<text x="190.0" y="503" text-anchor="middle" class="node-text">Example: house price</text>
+<rect x="320" y="430" width="240" height="100" class="purple"/>
+<text x="440.0" y="461" text-anchor="middle" class="node-title">Classification</text>
+<text x="440.0" y="485" text-anchor="middle" class="node-text">Predict a category</text>
+<text x="440.0" y="503" text-anchor="middle" class="node-text">Example: spam / not spam</text>
+<rect x="650" y="430" width="240" height="100" class="gold"/>
+<text x="770.0" y="461" text-anchor="middle" class="node-title">Clustering</text>
+<text x="770.0" y="485" text-anchor="middle" class="node-text">Group similar records</text>
+<text x="770.0" y="503" text-anchor="middle" class="node-text">Example: customer segments</text>
+<rect x="900" y="430" width="240" height="100" class="purple"/>
+<text x="1020.0" y="461" text-anchor="middle" class="node-title">Dimensionality Reduction</text>
+<text x="1020.0" y="485" text-anchor="middle" class="node-text">Compress features</text>
+<text x="1020.0" y="503" text-anchor="middle" class="node-text">Example: PCA</text>
+<text x="600" y="585" text-anchor="middle" class="small">Reinforcement learning is another major paradigm: an agent learns from rewards and actions.</text>
+  <text x="48" y="656" class="small">CubicNova Data Science Roadmap • assets/diagrams</text>
+</svg>
