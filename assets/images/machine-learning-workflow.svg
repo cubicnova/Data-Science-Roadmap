@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Machine Learning Workflow</title>
+  <desc id="desc">A repeatable workflow for building, evaluating, and deploying predictive models.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fbff"/>
+      <stop offset="100%" stop-color="#edf4fb"/>
+    </linearGradient>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#17324d" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#56718c"/>
+    </marker>
+    <style>
+      .title { font: 700 30px Arial, Helvetica, sans-serif; fill: #142c43; }
+      .subtitle { font: 400 15px Arial, Helvetica, sans-serif; fill: #52677b; }
+      .node-title { font: 700 17px Arial, Helvetica, sans-serif; fill: #18334b; }
+      .node-text { font: 400 13px Arial, Helvetica, sans-serif; fill: #40576b; }
+      .small { font: 400 12px Arial, Helvetica, sans-serif; fill: #52677b; }
+      .edge { fill: none; stroke: #56718c; stroke-width: 2.5; marker-end: url(#arrow); }
+      .edge-dashed { fill: none; stroke: #56718c; stroke-width: 2.2; stroke-dasharray: 7 6; marker-end: url(#arrow); }
+      .card { fill: #ffffff; stroke: #cbd9e6; stroke-width: 1.4; rx: 15; filter: url(#shadow); }
+      .blue { fill: #dceeff; stroke: #78a9d8; stroke-width: 1.4; rx: 14; }
+      .teal { fill: #d9f4ed; stroke: #71b8a8; stroke-width: 1.4; rx: 14; }
+      .gold { fill: #fff0cf; stroke: #d9b35c; stroke-width: 1.4; rx: 14; }
+      .purple { fill: #ece4ff; stroke: #a594dc; stroke-width: 1.4; rx: 14; }
+      .rose { fill: #ffe3e6; stroke: #d998a1; stroke-width: 1.4; rx: 14; }
+      .dark { fill: #193a55; stroke: #193a55; stroke-width: 1.4; rx: 14; }
+      .white-title { font: 700 16px Arial, Helvetica, sans-serif; fill: #ffffff; }
+      .white-text { font: 400 12px Arial, Helvetica, sans-serif; fill: #e8f1f8; }
+    </style>
+  </defs>
+  <rect width="1200" height="680" rx="22" fill="url(#bg)"/>
+  <text x="48" y="54" class="title">Machine Learning Workflow</text>
+  <text x="48" y="82" class="subtitle">A repeatable workflow for building, evaluating, and deploying predictive models.</text>
+  <rect x="55" y="170" width="170" height="100" class="blue"/>
+<text x="140.0" y="201" text-anchor="middle" class="node-title">Raw Data</text>
+<text x="140.0" y="225" text-anchor="middle" class="node-text">Sources, labels,</text>
+<text x="140.0" y="243" text-anchor="middle" class="node-text">business context</text>
+<rect x="285" y="170" width="180" height="100" class="teal"/>
+<text x="375.0" y="201" text-anchor="middle" class="node-title">Split Data</text>
+<text x="375.0" y="225" text-anchor="middle" class="node-text">Train / validation /</text>
+<text x="375.0" y="243" text-anchor="middle" class="node-text">test sets</text>
+<rect x="525" y="170" width="180" height="100" class="gold"/>
+<text x="615.0" y="201" text-anchor="middle" class="node-title">Preprocess</text>
+<text x="615.0" y="225" text-anchor="middle" class="node-text">Impute, encode,</text>
+<text x="615.0" y="243" text-anchor="middle" class="node-text">scale as needed</text>
+<rect x="765" y="170" width="170" height="100" class="purple"/>
+<text x="850.0" y="201" text-anchor="middle" class="node-title">Train Model</text>
+<text x="850.0" y="225" text-anchor="middle" class="node-text">Fit baseline,</text>
+<text x="850.0" y="243" text-anchor="middle" class="node-text">then improve</text>
+<rect x="995" y="170" width="160" height="100" class="blue"/>
+<text x="1075.0" y="201" text-anchor="middle" class="node-title">Evaluate</text>
+<text x="1075.0" y="225" text-anchor="middle" class="node-text">Metrics and</text>
+<text x="1075.0" y="243" text-anchor="middle" class="node-text">error analysis</text>
+<path d="M225,220 L285,220" class="edge"/>
+<path d="M465,220 L525,220" class="edge"/>
+<path d="M705,220 L765,220" class="edge"/>
+<path d="M935,220 L995,220" class="edge"/>
+<rect x="760" y="390" width="190" height="92" class="gold"/>
+<text x="855.0" y="421" text-anchor="middle" class="node-title">Tune &amp; Iterate</text>
+<text x="855.0" y="445" text-anchor="middle" class="node-text">Use validation data</text>
+<rect x="995" y="390" width="160" height="92" class="teal"/>
+<text x="1075.0" y="421" text-anchor="middle" class="node-title">Final Test</text>
+<text x="1075.0" y="445" text-anchor="middle" class="node-text">Evaluate once</text>
+<text x="1075.0" y="463" text-anchor="middle" class="node-text">after selection</text>
+<rect x="510" y="390" width="190" height="92" class="dark"/>
+<text x="605.0" y="421" text-anchor="middle" class="node-title">Deploy &amp; Monitor</text>
+<text x="605.0" y="445" text-anchor="middle" class="node-text">Version, serve,</text>
+<text x="605.0" y="463" text-anchor="middle" class="node-text">watch drift</text>
+<path d="M1075,270 L1075,390" class="edge"/>
+<path d="M995,436 L950,436" class="edge"/>
+<path d="M760,436 L700,436" class="edge"/>
+<path d="M855,390 L855,270" class="edge-dashed"/>
+<text x="55" y="535" class="node-text">Prevent leakage: fit preprocessing on training data only; keep the test set out of tuning decisions.</text>
+<text x="55" y="562" class="small">Use pipelines to keep preprocessing and model training consistent across validation and production.</text>
+  <text x="48" y="656" class="small">CubicNova Data Science Roadmap • assets/diagrams</text>
+</svg>

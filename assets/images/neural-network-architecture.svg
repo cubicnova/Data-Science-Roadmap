@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">Neural Network Architecture</title>
+  <desc id="desc">A simplified fully connected neural network showing input, hidden, and output layers.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fbff"/>
+      <stop offset="100%" stop-color="#edf4fb"/>
+    </linearGradient>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#17324d" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#56718c"/>
+    </marker>
+    <style>
+      .title { font: 700 30px Arial, Helvetica, sans-serif; fill: #142c43; }
+      .subtitle { font: 400 15px Arial, Helvetica, sans-serif; fill: #52677b; }
+      .node-title { font: 700 17px Arial, Helvetica, sans-serif; fill: #18334b; }
+      .node-text { font: 400 13px Arial, Helvetica, sans-serif; fill: #40576b; }
+      .small { font: 400 12px Arial, Helvetica, sans-serif; fill: #52677b; }
+      .edge { fill: none; stroke: #56718c; stroke-width: 2.5; marker-end: url(#arrow); }
+      .edge-dashed { fill: none; stroke: #56718c; stroke-width: 2.2; stroke-dasharray: 7 6; marker-end: url(#arrow); }
+      .card { fill: #ffffff; stroke: #cbd9e6; stroke-width: 1.4; rx: 15; filter: url(#shadow); }
+      .blue { fill: #dceeff; stroke: #78a9d8; stroke-width: 1.4; rx: 14; }
+      .teal { fill: #d9f4ed; stroke: #71b8a8; stroke-width: 1.4; rx: 14; }
+      .gold { fill: #fff0cf; stroke: #d9b35c; stroke-width: 1.4; rx: 14; }
+      .purple { fill: #ece4ff; stroke: #a594dc; stroke-width: 1.4; rx: 14; }
+      .rose { fill: #ffe3e6; stroke: #d998a1; stroke-width: 1.4; rx: 14; }
+      .dark { fill: #193a55; stroke: #193a55; stroke-width: 1.4; rx: 14; }
+      .white-title { font: 700 16px Arial, Helvetica, sans-serif; fill: #ffffff; }
+      .white-text { font: 400 12px Arial, Helvetica, sans-serif; fill: #e8f1f8; }
+    </style>
+  </defs>
+  <rect width="1200" height="680" rx="22" fill="url(#bg)"/>
+  <text x="48" y="54" class="title">Neural Network Architecture</text>
+  <text x="48" y="82" class="subtitle">A simplified fully connected neural network showing input, hidden, and output layers.</text>
+  <text x="220" y="150" text-anchor="middle" class="node-title">Input layer</text>
+<text x="600" y="150" text-anchor="middle" class="node-title">Hidden layers</text>
+<text x="980" y="150" text-anchor="middle" class="node-title">Output layer</text>
+<line x1="220" y1="230" x2="470" y2="205" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="220" y1="230" x2="470" y2="285" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="220" y1="230" x2="470" y2="365" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="220" y1="230" x2="470" y2="445" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="220" y1="230" x2="470" y2="525" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="220" y1="320" x2="470" y2="205" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="220" y1="320" x2="470" y2="285" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="220" y1="320" x2="470" y2="365" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="220" y1="320" x2="470" y2="445" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="220" y1="320" x2="470" y2="525" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="220" y1="410" x2="470" y2="205" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="220" y1="410" x2="470" y2="285" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="220" y1="410" x2="470" y2="365" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="220" y1="410" x2="470" y2="445" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="220" y1="410" x2="470" y2="525" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="220" y1="500" x2="470" y2="205" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="220" y1="500" x2="470" y2="285" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="220" y1="500" x2="470" y2="365" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="220" y1="500" x2="470" y2="445" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="220" y1="500" x2="470" y2="525" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="470" y1="205" x2="720" y2="205" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="470" y1="205" x2="720" y2="285" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="470" y1="205" x2="720" y2="365" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="470" y1="205" x2="720" y2="445" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="470" y1="205" x2="720" y2="525" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="470" y1="285" x2="720" y2="205" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="470" y1="285" x2="720" y2="285" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="470" y1="285" x2="720" y2="365" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="470" y1="285" x2="720" y2="445" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="470" y1="285" x2="720" y2="525" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="470" y1="365" x2="720" y2="205" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="470" y1="365" x2="720" y2="285" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="470" y1="365" x2="720" y2="365" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="470" y1="365" x2="720" y2="445" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="470" y1="365" x2="720" y2="525" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="470" y1="445" x2="720" y2="205" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="470" y1="445" x2="720" y2="285" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="470" y1="445" x2="720" y2="365" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="470" y1="445" x2="720" y2="445" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="470" y1="445" x2="720" y2="525" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="470" y1="525" x2="720" y2="205" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="470" y1="525" x2="720" y2="285" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="470" y1="525" x2="720" y2="365" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="470" y1="525" x2="720" y2="445" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="470" y1="525" x2="720" y2="525" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="720" y1="205" x2="980" y2="320" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="720" y1="205" x2="980" y2="410" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="720" y1="285" x2="980" y2="320" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="720" y1="285" x2="980" y2="410" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="720" y1="365" x2="980" y2="320" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="720" y1="365" x2="980" y2="410" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="720" y1="445" x2="980" y2="320" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="720" y1="445" x2="980" y2="410" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="720" y1="525" x2="980" y2="320" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<line x1="720" y1="525" x2="980" y2="410" stroke="#9bb0c3" stroke-width="1.5" opacity="0.72"/>
+<circle cx="220" cy="230" r="23" fill="#dceeff" stroke="#78a9d8" stroke-width="2"/>
+<circle cx="220" cy="230" r="5" fill="#35516b"/>
+<circle cx="220" cy="320" r="23" fill="#dceeff" stroke="#78a9d8" stroke-width="2"/>
+<circle cx="220" cy="320" r="5" fill="#35516b"/>
+<circle cx="220" cy="410" r="23" fill="#dceeff" stroke="#78a9d8" stroke-width="2"/>
+<circle cx="220" cy="410" r="5" fill="#35516b"/>
+<circle cx="220" cy="500" r="23" fill="#dceeff" stroke="#78a9d8" stroke-width="2"/>
+<circle cx="220" cy="500" r="5" fill="#35516b"/>
+<circle cx="470" cy="205" r="23" fill="#d9f4ed" stroke="#71b8a8" stroke-width="2"/>
+<circle cx="470" cy="205" r="5" fill="#35516b"/>
+<circle cx="470" cy="285" r="23" fill="#d9f4ed" stroke="#71b8a8" stroke-width="2"/>
+<circle cx="470" cy="285" r="5" fill="#35516b"/>
+<circle cx="470" cy="365" r="23" fill="#d9f4ed" stroke="#71b8a8" stroke-width="2"/>
+<circle cx="470" cy="365" r="5" fill="#35516b"/>
+<circle cx="470" cy="445" r="23" fill="#d9f4ed" stroke="#71b8a8" stroke-width="2"/>
+<circle cx="470" cy="445" r="5" fill="#35516b"/>
+<circle cx="470" cy="525" r="23" fill="#d9f4ed" stroke="#71b8a8" stroke-width="2"/>
+<circle cx="470" cy="525" r="5" fill="#35516b"/>
+<circle cx="720" cy="205" r="23" fill="#ece4ff" stroke="#a594dc" stroke-width="2"/>
+<circle cx="720" cy="205" r="5" fill="#35516b"/>
+<circle cx="720" cy="285" r="23" fill="#ece4ff" stroke="#a594dc" stroke-width="2"/>
+<circle cx="720" cy="285" r="5" fill="#35516b"/>
+<circle cx="720" cy="365" r="23" fill="#ece4ff" stroke="#a594dc" stroke-width="2"/>
+<circle cx="720" cy="365" r="5" fill="#35516b"/>
+<circle cx="720" cy="445" r="23" fill="#ece4ff" stroke="#a594dc" stroke-width="2"/>
+<circle cx="720" cy="445" r="5" fill="#35516b"/>
+<circle cx="720" cy="525" r="23" fill="#ece4ff" stroke="#a594dc" stroke-width="2"/>
+<circle cx="720" cy="525" r="5" fill="#35516b"/>
+<circle cx="980" cy="320" r="23" fill="#fff0cf" stroke="#d9b35c" stroke-width="2"/>
+<circle cx="980" cy="320" r="5" fill="#35516b"/>
+<circle cx="980" cy="410" r="23" fill="#fff0cf" stroke="#d9b35c" stroke-width="2"/>
+<circle cx="980" cy="410" r="5" fill="#35516b"/>
+<rect x="70" y="175" width="120" height="80" class="blue"/>
+<text x="130.0" y="206" text-anchor="middle" class="node-title">Features</text>
+<text x="130.0" y="230" text-anchor="middle" class="node-text">x₁, x₂, …, xₙ</text>
+<rect x="1015" y="500" width="135" height="76" class="gold"/>
+<text x="1082.5" y="531" text-anchor="middle" class="node-title">Prediction</text>
+<text x="1082.5" y="555" text-anchor="middle" class="node-text">ŷ or class</text>
+<text x="600" y="590" text-anchor="middle" class="node-text">Training adjusts weights and biases to reduce a loss function using optimization and backpropagation.</text>
+  <text x="48" y="656" class="small">CubicNova Data Science Roadmap • assets/diagrams</text>
+</svg>

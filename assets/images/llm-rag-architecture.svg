@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680" role="img" aria-labelledby="title desc">
+  <title id="title">LLM and RAG Architecture</title>
+  <desc id="desc">A retrieval-augmented generation workflow connecting user questions, document retrieval, and an LLM.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8fbff"/>
+      <stop offset="100%" stop-color="#edf4fb"/>
+    </linearGradient>
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#17324d" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#56718c"/>
+    </marker>
+    <style>
+      .title { font: 700 30px Arial, Helvetica, sans-serif; fill: #142c43; }
+      .subtitle { font: 400 15px Arial, Helvetica, sans-serif; fill: #52677b; }
+      .node-title { font: 700 17px Arial, Helvetica, sans-serif; fill: #18334b; }
+      .node-text { font: 400 13px Arial, Helvetica, sans-serif; fill: #40576b; }
+      .small { font: 400 12px Arial, Helvetica, sans-serif; fill: #52677b; }
+      .edge { fill: none; stroke: #56718c; stroke-width: 2.5; marker-end: url(#arrow); }
+      .edge-dashed { fill: none; stroke: #56718c; stroke-width: 2.2; stroke-dasharray: 7 6; marker-end: url(#arrow); }
+      .card { fill: #ffffff; stroke: #cbd9e6; stroke-width: 1.4; rx: 15; filter: url(#shadow); }
+      .blue { fill: #dceeff; stroke: #78a9d8; stroke-width: 1.4; rx: 14; }
+      .teal { fill: #d9f4ed; stroke: #71b8a8; stroke-width: 1.4; rx: 14; }
+      .gold { fill: #fff0cf; stroke: #d9b35c; stroke-width: 1.4; rx: 14; }
+      .purple { fill: #ece4ff; stroke: #a594dc; stroke-width: 1.4; rx: 14; }
+      .rose { fill: #ffe3e6; stroke: #d998a1; stroke-width: 1.4; rx: 14; }
+      .dark { fill: #193a55; stroke: #193a55; stroke-width: 1.4; rx: 14; }
+      .white-title { font: 700 16px Arial, Helvetica, sans-serif; fill: #ffffff; }
+      .white-text { font: 400 12px Arial, Helvetica, sans-serif; fill: #e8f1f8; }
+    </style>
+  </defs>
+  <rect width="1200" height="680" rx="22" fill="url(#bg)"/>
+  <text x="48" y="54" class="title">LLM and RAG Architecture</text>
+  <text x="48" y="82" class="subtitle">A retrieval-augmented generation workflow connecting user questions, document retrieval, and an LLM.</text>
+  <rect x="55" y="150" width="210" height="100" class="blue"/>
+<text x="160.0" y="181" text-anchor="middle" class="node-title">User Question</text>
+<text x="160.0" y="205" text-anchor="middle" class="node-text">Natural-language</text>
+<text x="160.0" y="223" text-anchor="middle" class="node-text">query</text>
+<rect x="325" y="150" width="210" height="100" class="purple"/>
+<text x="430.0" y="181" text-anchor="middle" class="node-title">Embed Query</text>
+<text x="430.0" y="205" text-anchor="middle" class="node-text">Convert text to</text>
+<text x="430.0" y="223" text-anchor="middle" class="node-text">a vector</text>
+<rect x="595" y="150" width="220" height="100" class="teal"/>
+<text x="705.0" y="181" text-anchor="middle" class="node-title">Retrieve Context</text>
+<text x="705.0" y="205" text-anchor="middle" class="node-text">Search vector store</text>
+<text x="705.0" y="223" text-anchor="middle" class="node-text">for relevant chunks</text>
+<rect x="875" y="150" width="250" height="100" class="gold"/>
+<text x="1000.0" y="181" text-anchor="middle" class="node-title">Build Prompt</text>
+<text x="1000.0" y="205" text-anchor="middle" class="node-text">Question + retrieved</text>
+<text x="1000.0" y="223" text-anchor="middle" class="node-text">context + instructions</text>
+<path d="M265,200 L325,200" class="edge"/>
+<path d="M535,200 L595,200" class="edge"/>
+<path d="M815,200 L875,200" class="edge"/>
+<rect x="325" y="365" width="210" height="100" class="blue"/>
+<text x="430.0" y="396" text-anchor="middle" class="node-title">Source Documents</text>
+<text x="430.0" y="420" text-anchor="middle" class="node-text">PDFs, pages,</text>
+<text x="430.0" y="438" text-anchor="middle" class="node-text">knowledge base</text>
+<rect x="595" y="365" width="220" height="100" class="purple"/>
+<text x="705.0" y="396" text-anchor="middle" class="node-title">Chunk &amp; Embed</text>
+<text x="705.0" y="420" text-anchor="middle" class="node-text">Split, clean,</text>
+<text x="705.0" y="438" text-anchor="middle" class="node-text">create embeddings</text>
+<rect x="875" y="365" width="250" height="100" class="teal"/>
+<text x="1000.0" y="396" text-anchor="middle" class="node-title">Vector Database</text>
+<text x="1000.0" y="420" text-anchor="middle" class="node-text">Store vectors and</text>
+<text x="1000.0" y="438" text-anchor="middle" class="node-text">metadata</text>
+<path d="M535,415 L595,415" class="edge"/>
+<path d="M815,415 L875,415" class="edge"/>
+<path d="M705,365 L705,250" class="edge-dashed"/>
+<rect x="875" y="520" width="250" height="75" class="dark"/>
+<text x="1000.0" y="551" text-anchor="middle" class="node-title">LLM Response</text>
+<text x="1000.0" y="575" text-anchor="middle" class="node-text">Answer grounded in context</text>
+<path d="M1000,250 L1000,520" class="edge"/>
+<text x="55" y="540" class="node-text">Quality checks: retrieve relevant sources, cite evidence, protect sensitive data, and evaluate hallucinations.</text>
+<text x="55" y="568" class="small">RAG supplements a language model with retrieved information; it does not guarantee factual correctness.</text>
+  <text x="48" y="656" class="small">CubicNova Data Science Roadmap • assets/diagrams</text>
+</svg>
