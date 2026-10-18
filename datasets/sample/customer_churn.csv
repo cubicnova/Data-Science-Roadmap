@@ -1,0 +1,61 @@
+customer_id,tenure_months,contract_type,monthly_charges_inr,service_plan,support_tickets_last_year,payment_method,churn
+C001,6,Monthly,978.65,Premium,7,Mail,Yes
+C002,12,Two year,2300.18,Basic,5,Mail,Yes
+C003,70,Two year,2227.21,Standard,5,Mail,No
+C004,33,One year,2309.91,Standard,7,Electronic,No
+C005,60,Monthly,2417.37,Premium,2,Credit card,No
+C006,72,Monthly,1103.71,Basic,6,Credit card,Yes
+C007,48,Two year,1779.22,Premium,4,Bank transfer,No
+C008,14,Monthly,1783.64,Premium,7,Bank transfer,Yes
+C009,29,Two year,1723.84,Standard,7,Electronic,Yes
+C010,18,One year,398.76,Basic,0,Electronic,No
+C011,31,One year,2250.97,Premium,2,Credit card,No
+C012,20,One year,2246.91,Standard,1,Electronic,No
+C013,48,Monthly,776.99,Basic,7,Bank transfer,No
+C014,70,Monthly,2282.73,Basic,5,Electronic,Yes
+C015,59,Two year,500.68,Basic,3,Electronic,No
+C016,43,Two year,834.85,Premium,2,Mail,Yes
+C017,28,One year,2087.72,Premium,3,Electronic,No
+C018,36,Monthly,2187.49,Basic,2,Electronic,Yes
+C019,4,Monthly,588.97,Basic,5,Mail,Yes
+C020,34,Two year,414.28,Basic,6,Credit card,Yes
+C021,58,Two year,2010.64,Premium,8,Mail,Yes
+C022,6,One year,1898.93,Basic,8,Electronic,Yes
+C023,62,Two year,2163.06,Premium,6,Credit card,Yes
+C024,10,Two year,2277.39,Basic,5,Bank transfer,Yes
+C025,71,Two year,1865.74,Standard,6,Credit card,No
+C026,13,Two year,2043.81,Premium,1,Mail,No
+C027,56,One year,1292.42,Standard,3,Credit card,Yes
+C028,54,One year,1904.15,Standard,5,Bank transfer,Yes
+C029,20,Monthly,1810.01,Basic,7,Electronic,Yes
+C030,56,Monthly,511.44,Premium,5,Bank transfer,Yes
+C031,16,Two year,1202.78,Standard,6,Bank transfer,Yes
+C032,46,Monthly,526.92,Standard,8,Mail,Yes
+C033,14,One year,1069.25,Standard,8,Mail,Yes
+C034,55,Monthly,2158.34,Premium,8,Bank transfer,Yes
+C035,4,One year,695.92,Basic,4,Mail,Yes
+C036,52,Monthly,452.09,Basic,0,Credit card,No
+C037,54,One year,1297.02,Standard,2,Electronic,Yes
+C038,7,Two year,641.28,Standard,0,Credit card,Yes
+C039,63,One year,1634.57,Premium,6,Electronic,Yes
+C040,45,Two year,1244.81,Standard,4,Bank transfer,No
+C041,6,Monthly,784.14,Basic,0,Mail,Yes
+C042,33,Monthly,935.78,Standard,1,Mail,Yes
+C043,17,Two year,1135.46,Premium,3,Bank transfer,No
+C044,10,One year,1172.56,Basic,0,Bank transfer,Yes
+C045,55,One year,1560.48,Basic,6,Bank transfer,Yes
+C046,22,Two year,2061.91,Basic,7,Credit card,No
+C047,14,Two year,834.3,Standard,6,Bank transfer,Yes
+C048,29,Monthly,1031.75,Basic,2,Mail,Yes
+C049,45,Monthly,1071.42,Standard,2,Mail,Yes
+C050,23,Monthly,1624.28,Premium,1,Credit card,No
+C051,60,Two year,1958.78,Premium,7,Bank transfer,No
+C052,41,One year,631.11,Standard,1,Bank transfer,No
+C053,8,One year,1073.27,Basic,1,Electronic,Yes
+C054,48,Two year,2128.73,Basic,1,Credit card,No
+C055,60,One year,1575.72,Premium,0,Mail,No
+C056,42,Monthly,1630.01,Standard,8,Electronic,No
+C057,44,Two year,2460.25,Basic,1,Mail,No
+C058,57,Two year,2479.17,Standard,8,Bank transfer,No
+C059,37,Two year,1151.32,Premium,5,Bank transfer,No
+C060,9,Two year,1024.32,Standard,8,Mail,Yes

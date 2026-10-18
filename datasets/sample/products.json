@@ -1,0 +1,57 @@
+[
+  {
+    "product_id": "P001",
+    "name": "Notebook",
+    "category": "Stationery",
+    "price_inr": 60,
+    "in_stock": true,
+    "tags": [
+      "education",
+      "office"
+    ]
+  },
+  {
+    "product_id": "P002",
+    "name": "Pen Pack",
+    "category": "Stationery",
+    "price_inr": 40,
+    "in_stock": false,
+    "tags": [
+      "education",
+      "office"
+    ]
+  },
+  {
+    "product_id": "P003",
+    "name": "Backpack",
+    "category": "Accessories",
+    "price_inr": 850,
+    "in_stock": true,
+    "tags": [
+      "daily-use",
+      "accessories"
+    ]
+  },
+  {
+    "product_id": "P004",
+    "name": "Water Bottle",
+    "category": "Accessories",
+    "price_inr": 250,
+    "in_stock": false,
+    "tags": [
+      "daily-use",
+      "accessories"
+    ]
+  },
+  {
+    "product_id": "P005",
+    "name": "Calculator",
+    "category": "Stationery",
+    "price_inr": 420,
+    "in_stock": true,
+    "tags": [
+      "education",
+      "office"
+    ]
+  }
+]

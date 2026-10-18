@@ -1,0 +1,61 @@
+transaction_id,date,customer_id,product,quantity,unit_price_inr,discount_rate,revenue_inr,sales_channel
+T0018,2025-01-01,Customer-010,Water Bottle,5,250,0.1,1125.0,Store
+T0027,2025-01-03,Customer-018,Water Bottle,2,250,0,500,Online
+T0016,2025-01-04,Customer-014,Notebook,4,60,0,240,Store
+T0039,2025-01-11,Customer-022,Backpack,4,850,0,3400,Online
+T0012,2025-01-14,Customer-024,Notebook,1,60,0.1,54.0,Store
+T0034,2025-01-14,Customer-002,Notebook,7,60,0.05,399.0,Online
+T0008,2025-01-19,Customer-022,Calculator,4,420,0.05,1596.0,Store
+T0015,2025-01-20,Customer-021,Water Bottle,2,250,0,500,Partner
+T0031,2025-01-27,Customer-004,Pen Pack,5,40,0,200,Partner
+T0013,2025-01-28,Customer-018,Pen Pack,4,40,0,160,Store
+T0043,2025-01-28,Customer-008,Water Bottle,1,250,0.1,225.0,Online
+T0048,2025-01-28,Customer-024,Calculator,7,420,0.05,2793.0,Store
+T0047,2025-01-30,Customer-009,Backpack,3,850,0.15,2167.5,Online
+T0014,2025-02-05,Customer-015,Water Bottle,3,250,0.05,712.5,Online
+T0038,2025-02-07,Customer-010,Water Bottle,3,250,0,750,Store
+T0037,2025-02-08,Customer-019,Calculator,1,420,0.05,399.0,Partner
+T0022,2025-02-17,Customer-013,Notebook,2,60,0,120,Online
+T0003,2025-02-24,Customer-013,Calculator,4,420,0.05,1596.0,Partner
+T0009,2025-02-24,Customer-019,Calculator,3,420,0.15,1071.0,Store
+T0058,2025-02-24,Customer-022,Calculator,8,420,0,3360,Online
+T0020,2025-02-25,Customer-002,Notebook,1,60,0.05,57.0,Online
+T0041,2025-03-02,Customer-001,Pen Pack,3,40,0.1,108.0,Online
+T0010,2025-03-04,Customer-004,Water Bottle,7,250,0,1750,Online
+T0005,2025-03-05,Customer-001,Pen Pack,2,40,0.05,76.0,Partner
+T0050,2025-03-07,Customer-017,Notebook,7,60,0,420,Partner
+T0046,2025-03-13,Customer-011,Backpack,7,850,0.15,5057.5,Online
+T0059,2025-03-14,Customer-025,Calculator,6,420,0,2520,Online
+T0054,2025-03-17,Customer-014,Calculator,3,420,0,1260,Partner
+T0030,2025-03-19,Customer-010,Calculator,1,420,0.15,357.0,Partner
+T0056,2025-03-19,Customer-019,Backpack,4,850,0.1,3060.0,Partner
+T0025,2025-03-22,Customer-005,Pen Pack,5,40,0.1,180.0,Partner
+T0052,2025-03-26,Customer-024,Calculator,6,420,0,2520,Store
+T0035,2025-03-27,Customer-024,Pen Pack,5,40,0,200,Store
+T0042,2025-03-27,Customer-006,Water Bottle,4,250,0.05,950.0,Partner
+T0033,2025-03-29,Customer-016,Pen Pack,5,40,0.15,170.0,Store
+T0040,2025-04-01,Customer-024,Calculator,7,420,0.15,2499.0,Online
+T0029,2025-04-05,Customer-018,Backpack,3,850,0.1,2295.0,Partner
+T0055,2025-04-08,Customer-018,Pen Pack,5,40,0.1,180.0,Online
+T0049,2025-04-22,Customer-019,Calculator,2,420,0.1,756.0,Online
+T0044,2025-04-28,Customer-008,Backpack,5,850,0,4250,Online
+T0017,2025-05-04,Customer-006,Pen Pack,7,40,0,280,Store
+T0001,2025-05-05,Customer-022,Notebook,3,60,0,180,Store
+T0028,2025-05-10,Customer-003,Backpack,3,850,0.05,2422.5,Online
+T0053,2025-05-10,Customer-013,Backpack,7,850,0.05,5652.5,Partner
+T0002,2025-05-21,Customer-020,Pen Pack,5,40,0.15,170.0,Store
+T0006,2025-05-22,Customer-003,Pen Pack,4,40,0,160,Partner
+T0032,2025-05-22,Customer-020,Pen Pack,5,40,0.05,190.0,Online
+T0036,2025-05-22,Customer-003,Water Bottle,1,250,0,250,Partner
+T0023,2025-05-26,Customer-003,Pen Pack,1,40,0.15,34.0,Store
+T0021,2025-05-30,Customer-017,Water Bottle,3,250,0,750,Online
+T0007,2025-06-11,Customer-002,Notebook,4,60,0,240,Store
+T0026,2025-06-15,Customer-025,Backpack,8,850,0.05,6460.0,Online
+T0004,2025-06-16,Customer-015,Backpack,8,850,0.15,5780.0,Online
+T0057,2025-06-17,Customer-015,Backpack,8,850,0.1,6120.0,Partner
+T0011,2025-06-18,Customer-014,Water Bottle,6,250,0.1,1350.0,Store
+T0024,2025-06-18,Customer-007,Calculator,6,420,0.05,2394.0,Partner
+T0045,2025-06-18,Customer-009,Pen Pack,7,40,0.05,266.0,Online
+T0060,2025-06-22,Customer-005,Backpack,4,850,0,3400,Online
+T0051,2025-06-25,Customer-003,Pen Pack,6,40,0.1,216.0,Partner
+T0019,2025-06-28,Customer-007,Calculator,8,420,0,3360,Store
